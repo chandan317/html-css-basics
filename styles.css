@@ -141,5 +141,5 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius: 4rem;
-    border-bottom-left-radius: 3rem;
+    border-bottom-left-radius: 0rem;
 }
