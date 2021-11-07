@@ -6,6 +6,7 @@ body {
 
 :root {
     --primary-color: yellow;
+    --green: green;
 }
 
 body {
@@ -63,4 +64,53 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem .5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 3rem;
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+
+.navigation .nav-pills {
+    text-align: center;
+}
+
+
+.navigation .link {
+    color: blue;
+
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+
+}
+
+.hero .hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 2rem;
+    color: var(--green);
+    padding-top: 1rem;
 }
